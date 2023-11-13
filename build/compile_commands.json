@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/lessons/c++/Logic_Elements/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Logic_Elements.dir\\main.cpp.obj -c D:\\lessons\\c++\\Logic_Elements\\main.cpp",
+  "file": "D:/lessons/c++/Logic_Elements/main.cpp",
+  "output": "CMakeFiles/Logic_Elements.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/lessons/c++/Logic_Elements/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Logic_Elements.dir\\LogElements.cpp.obj -c D:\\lessons\\c++\\Logic_Elements\\LogElements.cpp",
+  "file": "D:/lessons/c++/Logic_Elements/LogElements.cpp",
+  "output": "CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj"
+}
+]
