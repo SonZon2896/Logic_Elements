@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj"
-  "CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj.d"
-  "CMakeFiles/Logic_Elements.dir/main.cpp.obj"
-  "CMakeFiles/Logic_Elements.dir/main.cpp.obj.d"
+  "CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj"
+  "CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj.d"
   "Logic_Elements.exe"
   "Logic_Elements.exe.manifest"
   "Logic_Elements.pdb"

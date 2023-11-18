@@ -68,49 +68,33 @@ include CMakeFiles/Logic_Elements.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Logic_Elements.dir/flags.make
 
-CMakeFiles/Logic_Elements.dir/main.cpp.obj: CMakeFiles/Logic_Elements.dir/flags.make
-CMakeFiles/Logic_Elements.dir/main.cpp.obj: D:/lessons/c++/Logic_Elements/main.cpp
-CMakeFiles/Logic_Elements.dir/main.cpp.obj: CMakeFiles/Logic_Elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\lessons\c++\Logic_Elements\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Logic_Elements.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logic_Elements.dir/main.cpp.obj -MF CMakeFiles\Logic_Elements.dir\main.cpp.obj.d -o CMakeFiles\Logic_Elements.dir\main.cpp.obj -c D:\lessons\c++\Logic_Elements\main.cpp
+CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj: CMakeFiles/Logic_Elements.dir/flags.make
+CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj: D:/lessons/c++/Logic_Elements/GTKprogram.cpp
+CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj: CMakeFiles/Logic_Elements.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\lessons\c++\Logic_Elements\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj -MF CMakeFiles\Logic_Elements.dir\GTKprogram.cpp.obj.d -o CMakeFiles\Logic_Elements.dir\GTKprogram.cpp.obj -c D:\lessons\c++\Logic_Elements\GTKprogram.cpp
 
-CMakeFiles/Logic_Elements.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Logic_Elements.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\lessons\c++\Logic_Elements\main.cpp > CMakeFiles\Logic_Elements.dir\main.cpp.i
+CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\lessons\c++\Logic_Elements\GTKprogram.cpp > CMakeFiles\Logic_Elements.dir\GTKprogram.cpp.i
 
-CMakeFiles/Logic_Elements.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Logic_Elements.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\lessons\c++\Logic_Elements\main.cpp -o CMakeFiles\Logic_Elements.dir\main.cpp.s
-
-CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj: CMakeFiles/Logic_Elements.dir/flags.make
-CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj: D:/lessons/c++/Logic_Elements/LogElements.cpp
-CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj: CMakeFiles/Logic_Elements.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\lessons\c++\Logic_Elements\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj -MF CMakeFiles\Logic_Elements.dir\LogElements.cpp.obj.d -o CMakeFiles\Logic_Elements.dir\LogElements.cpp.obj -c D:\lessons\c++\Logic_Elements\LogElements.cpp
-
-CMakeFiles/Logic_Elements.dir/LogElements.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Logic_Elements.dir/LogElements.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\lessons\c++\Logic_Elements\LogElements.cpp > CMakeFiles\Logic_Elements.dir\LogElements.cpp.i
-
-CMakeFiles/Logic_Elements.dir/LogElements.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Logic_Elements.dir/LogElements.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\lessons\c++\Logic_Elements\LogElements.cpp -o CMakeFiles\Logic_Elements.dir\LogElements.cpp.s
+CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\lessons\c++\Logic_Elements\GTKprogram.cpp -o CMakeFiles\Logic_Elements.dir\GTKprogram.cpp.s
 
 # Object files for target Logic_Elements
 Logic_Elements_OBJECTS = \
-"CMakeFiles/Logic_Elements.dir/main.cpp.obj" \
-"CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj"
+"CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj"
 
 # External object files for target Logic_Elements
 Logic_Elements_EXTERNAL_OBJECTS =
 
-Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/main.cpp.obj
-Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj
+Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj
 Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/build.make
 Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/linkLibs.rsp
 Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/objects1.rsp
 Logic_Elements.exe: CMakeFiles/Logic_Elements.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\lessons\c++\Logic_Elements\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Logic_Elements.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\lessons\c++\Logic_Elements\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Logic_Elements.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Logic_Elements.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,18 +1,24 @@
 {
-  "configurations": [
-    {
-      "name": "windows-gcc-x64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "compilerPath": "C:/mingw64/bin/gcc.exe",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x64",
-      "compilerArgs": [
-        ""
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/lessons/c++/libs/gtk",
+                "C:\\Qt\\6.6.0\\mingw_64\\include",
+                "C:\\Qt\\6.6.0\\mingw_64\\lib"
+            ],
+            "compilerPath": "C:/mingw64/bin/gcc.exe",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-I",
+                "D:/lessons/c++/libs/fltk/include",
+                "-L",
+                "D:/lessons/c++/libs/fltk/lib"
+            ]
+        }
+    ],
+    "version": 4
 }

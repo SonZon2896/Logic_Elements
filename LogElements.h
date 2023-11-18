@@ -28,32 +28,19 @@ public:
     bool GetOutput() {return output;}
 };
 
-class Source : public LogElement
-{
-protected:
-    inline static size_t global_id = 0;
-    virtual bool Logic() override;
 
-public:
-    Source(bool is_inv): LogElement(is_inv, "Source", global_id++) {StartLogic();}
-};
+#define AddElement(Class, ClassName) \
+class Class : public LogElement { \
+protected: \
+    inline static size_t global_id = 0; \
+    virtual bool Logic() final; \
+    \
+public: \
+    Class(bool is_inv): LogElement(is_inv, ClassName, global_id++) {StartLogic();} \
+}
 
-class And : public LogElement
-{
-protected:
-    inline static size_t global_id = 0;
-    virtual bool Logic() override;
+AddElement(Source, "Source");
+AddElement(And, "And");
+AddElement(Or, "Or");
 
-public:
-    And(bool is_inv): LogElement(is_inv, "And", global_id++) {StartLogic();}
-};
-
-class Or : public LogElement
-{
-protected:
-    inline static size_t global_id = 0;
-    virtual bool Logic() override;
-
-public:
-    Or(bool is_inv): LogElement(is_inv, "Or", global_id++) {StartLogic();}
-};
+#undef AddElement

@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g
+CXX_FLAGS =  -I D:/lessons/c++/libs/fltk/include -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -L D:/lessons/c++/libs/fltk/lib -W -isystem windows -mwindows -lfltk_images -lfltk_jpeg -lfltk_png -lfltk_z -lfltk -lole32 -luuid -lcomctl32 -lws2_32 -g
 

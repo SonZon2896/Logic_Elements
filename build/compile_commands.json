@@ -1,14 +1,22 @@
 [
 {
-  "directory": "D:/lessons/c++/Logic_Elements/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Logic_Elements.dir\\main.cpp.obj -c D:\\lessons\\c++\\Logic_Elements\\main.cpp",
-  "file": "D:/lessons/c++/Logic_Elements/main.cpp",
-  "output": "CMakeFiles/Logic_Elements.dir/main.cpp.obj"
+  "directory": "/media/vanek/D/lessons/c++/Logic_Elements/build",
+  "command": "/usr/bin/c++  -I/usr/lib/fltk -g -std=gnu++14 -o CMakeFiles/Elements.dir/main.cpp.o -c /media/vanek/D/lessons/c++/Logic_Elements/main.cpp",
+  "file": "/media/vanek/D/lessons/c++/Logic_Elements/main.cpp"
 },
 {
-  "directory": "D:/lessons/c++/Logic_Elements/build",
-  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Logic_Elements.dir\\LogElements.cpp.obj -c D:\\lessons\\c++\\Logic_Elements\\LogElements.cpp",
-  "file": "D:/lessons/c++/Logic_Elements/LogElements.cpp",
-  "output": "CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj"
+  "directory": "/media/vanek/D/lessons/c++/Logic_Elements/build",
+  "command": "/usr/bin/c++  -I/usr/lib/fltk -g -std=gnu++14 -o CMakeFiles/Elements.dir/LogElements.cpp.o -c /media/vanek/D/lessons/c++/Logic_Elements/LogElements.cpp",
+  "file": "/media/vanek/D/lessons/c++/Logic_Elements/LogElements.cpp"
+},
+{
+  "directory": "/media/vanek/D/lessons/c++/Logic_Elements/build",
+  "command": "/usr/bin/c++  -I/usr/lib/fltk -g -std=gnu++14 -o CMakeFiles/Elements.dir/Elements.cpp.o -c /media/vanek/D/lessons/c++/Logic_Elements/Elements.cpp",
+  "file": "/media/vanek/D/lessons/c++/Logic_Elements/Elements.cpp"
+},
+{
+  "directory": "/media/vanek/D/lessons/c++/Logic_Elements/build",
+  "command": "/usr/bin/c++  -I/usr/lib/fltk -g -std=gnu++14 -o CMakeFiles/Elements.dir/FLTKprogram.cpp.o -c /media/vanek/D/lessons/c++/Logic_Elements/FLTKprogram.cpp",
+  "file": "/media/vanek/D/lessons/c++/Logic_Elements/FLTKprogram.cpp"
 }
 ]

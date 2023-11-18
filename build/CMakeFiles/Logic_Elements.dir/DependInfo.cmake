@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/lessons/c++/Logic_Elements/LogElements.cpp" "CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj" "gcc" "CMakeFiles/Logic_Elements.dir/LogElements.cpp.obj.d"
-  "D:/lessons/c++/Logic_Elements/main.cpp" "CMakeFiles/Logic_Elements.dir/main.cpp.obj" "gcc" "CMakeFiles/Logic_Elements.dir/main.cpp.obj.d"
+  "D:/lessons/c++/Logic_Elements/GTKprogram.cpp" "CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj" "gcc" "CMakeFiles/Logic_Elements.dir/GTKprogram.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
